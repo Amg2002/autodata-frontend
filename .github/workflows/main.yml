@@ -15,4 +15,4 @@ jobs:
       - run: npm install
         name: Install NPM packages
       - run: npm run-script build
-        name: Run application
+        name: Build application
