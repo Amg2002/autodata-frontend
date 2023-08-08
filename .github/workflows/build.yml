@@ -14,5 +14,5 @@ jobs:
         name: Checkout code
       - run: npm install
         name: Install NPM packages
-      - run: node app.js
+      - run: node package.json
         name: Run application
