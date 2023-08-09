@@ -14,5 +14,5 @@ jobs:
         name: Checkout code
       - run: npm install
         name: Install NPM packages
-      - run: node package.json
+      - run: node --max-old-space-size=4096 index.js
         name: Run application
